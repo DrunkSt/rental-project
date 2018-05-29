@@ -1,0 +1,15 @@
+
+<div class="row" >
+    <div  id="home-video-container" class="col-xs-12 col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+    	<div class="post" >
+    		<img src="{{@BASE}}/uploads/{{@item.firstimage}}" width='640' class="video">
+                    <div class="details">
+                        <div><i class="fa fa-eye"></i> <span>{{@item.viewed}}</span></div>
+                        <div><i class="fa fa-star"></i> <span>{{@item.favorited}}</span></div>
+                        <button type="button" data-url="{{@serverurl}}/{{@item.id}}" class=" open-share-modal btn btn-default pull-right">Share</button>
+                    </div>
+                    <div ><p><strong>{{@item.name}}</strong></p></div>
+                    <div >{{@item.description| raw }}</div>
+        </div>
+    </div>
+</div>

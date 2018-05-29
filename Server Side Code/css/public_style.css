@@ -1,0 +1,148 @@
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+
+/*
+*Public Home
+*/
+
+.publicnav{
+  background-color: #009688;
+  color:#fff;
+}
+
+.publicnav a{
+  color:#fff !important;
+}
+
+.searchbar {
+  height: 300px;
+  background-color: #03A9F4;
+  position: relative;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-1{
+  width: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-1 input#home-search-videos{
+  width: 100%;
+  height: 50px;
+  background: #0288D1;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+ 
+   
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+
+.container-1 input#home-search-videos::-webkit-input-placeholder {
+   color: #eee;
+}
+ 
+.container-1 input#home-search-videos:-moz-placeholder { /* Firefox 18- */
+   color: #eee;  
+}
+ 
+.container-1 input#home-search-videos::-moz-placeholder {  /* Firefox 19+ */
+   color: #eee;  
+}
+ 
+.container-1 input#home-search-videos:-ms-input-placeholder {  
+   color: #eee;  
+}
+
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #fff;
+}
+
+.container-1 input#home-search-videos:hover, .container-1 input#home-search-videos:focus, .container-1 input#home-search-videos:active{
+    outline:none;
+    background: #0273b1;
+  }
+
+  #home-video-container .post{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding-bottom: 1px;
+  }
+
+
+  #home-video-container .post .video{
+    width: 100%;
+  }
+
+  #home-video-container .post p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: #212121;
+  }
+
+  body{
+    background-color: #f8f8f8;
+  }
+
+  #home-video-container .post .details {
+    margin-top: 10px;
+  }
+
+  #home-video-container .post .details div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    color: #757575;
+    display: inline;
+    padding: 20px;
+  }
+
+  #home-video-container .post i{
+    margin-right: 5px;
+  }
+
+  #home-video-container .post button{
+    margin-right: 20px;
+  }
+
+  #home-video-container .user-details{
+    margin: 20px;
+    color: #757575;
+  }
+
+  .error404{
+      margin-top: 100px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      padding: 20px;
+      color: #212121;
+      text-align: center;
+  }
